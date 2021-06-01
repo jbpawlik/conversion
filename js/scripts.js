@@ -21,3 +21,15 @@ function tbspToTsp(tbsp) {
 	return (tbsp * 3);
 }
 console.log(tbspToTsp(tbspInput));
+
+let cupInput = prompt("How many cups do you want to convert to pints?");
+function cupToPint(cup) {
+	return (cup * 0.5);
+}
+console.log(cupToPint(cupInput));
+
+let pintInput = prompt("How many pints do you want to convert to cups?");
+function pintToCup(pint) {
+	return (pint / 0.5);
+}
+console.log(pintToCup(pintInput));
